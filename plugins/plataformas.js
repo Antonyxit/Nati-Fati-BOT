@@ -1,7 +1,10 @@
-let handler = async (m, { conn, usedPrefix, command, paypal }) => {
-conn.sendMessage(m.chat, {text:'*PLATAFORMAS GENERADAS ✅*\n\n*Estas son las siguiente plataformas generadas de hoy 👇🏼*\n\n*CANVA PRO 🖥️*\n\n💌https://www.canva.com/brand/join?token=DGDare_uZD1QkiKpg6qzRw&referrer=team-invite\nhttps://www.canva.com/brand/join?token=ntSJMgW4oGlsWj57MJipAQ&referrer=team-invite\nhttps://www.canva.com/brand/join?token=jX8irnzB_EzxoP220MU1iQ&referrer=team-invite\n\n*CRUNCHYROLL*\n\nrodasmarvin112233@gmail.com:rodas2005\npyropunch@icloud.com:Lowkey10\nrogermontes13@gmail.com:Qwe1234s\nryellib@gmail.com:Starwarsmaster3\nrossrandolph2018@yahoo.com:Ross0510\nmariojulian42@gmail.com:mj94418!\nmgraboske510@gmail.com:Matthew01!\nrlomeli1127@gmail.com:roberto1127\nrandylima64@gmail.com:April619\nnatetpederson@gmail.com:js71rs64\ntycharles25@gmail.com:Codyc135\npb698jr@gmail.com:304698Pat\niball1208@hotmail.com:Iballrocks33\naguayoadrian24@gmail.com:Aguayo11\nkoyprice@gmail.com:stormpride01\nzailarobe@gmail.com:Rz020507\n\n*HBO MAX 💜*\n\n💌Jebejansson@live.com:Tjenixen2\nDaniela.hinojosagodoy@gmail.com:d4n1ela0709\ncarloseduardo2702@msn.com:Lucas2209\nlcsandymh@hotmail.com:sam02120212\nlamouniereduardo62@gmail.com:520201Du\nlarita0216@gmail.com:30112018Oli.\nkissmelle15@gmail.com:Pechugaconsal34\nlalitosbruik@gmail.com:Lalitos3012\nlambadahunter@gmail.com:akylol100\nkevin-brugman@hotmail.com:RiseAgainst1995\nkeyser.perez.150817@gmail.com:Maximo1105\nkikamev@gmail.com:Fernanda01@#\n\n𝘗𝘈𝘙𝘈 𝘚𝘈𝘉𝘌𝘙  𝘚𝘖𝘉𝘙𝘌 𝘌𝘓 𝘊𝘜𝘙𝘚𝘖 𝘗𝘖𝘕 𝘌𝘓 𝘚𝘐𝘎𝘜𝘐𝘌𝘕𝘛𝘌 𝘊𝘖𝘔𝘈𝘕𝘋𝘖 .𝘊𝘶𝘳𝘴𝘰𝘱𝘭𝘢𝘵𝘢𝘧𝘰𝘳𝘮𝘢𝘴\n\n*AGRADECER AL CREADOR EN EL GRUPO OFICIAL DEL BOT 👇🏼*\n\nWa.me/56986469687\n\nBY 𝕯𝖎𝖓𝖔𝕭𝖔𝖙 🦖*'},  { quoted: m })
-}
-handler.help = ['pagina']
-handler.tags = ['info']
-handler.command = /^plataformas$/i
-export default handler
+const handler = async (m, {conn}) => {
+  m.reply(global.preciolatam);
+};
+handler.command = /^(preciolatam)$/i;
+export default handler;
+
+global.preciolatam = `
+PLATAFORMAS DISPONIBLES
+XNXX GOLD
+`;
